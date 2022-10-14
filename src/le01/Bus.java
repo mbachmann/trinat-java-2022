@@ -9,7 +9,7 @@ public class Bus {
 
     void oelwechsel() {
         if (kmGefahren >= wechselintervall) {
-            System.out.println("Ölwechsel durchgeführt");
+            System.out.println("Ölwechsel bereits durchgeführt");
             kmGefahren = 0;
         } else {
             System.out.println("Ölwechsel nicht erforderlich");
